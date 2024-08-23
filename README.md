@@ -10,25 +10,33 @@ This project aims to predict house prices based on various features such as size
 INSTALLATION:
 
 Step 1:Clone the repository:
+
 git clone https://github.com/your-username/house-price-prediction.git
+
 cd house-price-prediction
 
 Step 2:Create and activate a virtual environment:
+
 python3 -m venv venv
+
 source venv/bin/activate  # On Windows, use venv\Scripts\activate
 
 Step 3: Install the required packages:
+
 pip install -r requirements.txt
 
 USAGE:
 
 Step 1: Data Preprocessing: Run the script to preprocess the data:
+
 python src/data_preprocessing.py
 
 Step 2: Model Training: Train the model using:
+
 python src/model_training.py
 
 Step 3: Prediction: Predict house prices by running:
+
 python src/prediction.py --input data/new_house.csv
 
 MODEL EXPLANATION:
@@ -36,6 +44,7 @@ MODEL EXPLANATION:
 The project uses two main algorithms:
 
 Linear Regression: A simple linear approach to model the relationship between features and the target (house price).
+
 Ridge Regression: A regularized version of Linear Regression that adds a penalty to large coefficients, helping prevent overfitting.
 
 DATASET:
