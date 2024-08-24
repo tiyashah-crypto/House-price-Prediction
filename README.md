@@ -1,22 +1,22 @@
-House Price Prediction Using Python and Machine Learning:
+*House Price Prediction Using Python and Machine Learning:*
 
-TABLE OF CONTENTS:
+**TABLE OF CONTENTS:**
 
-INTRODUCTION:
+**INTRODUCTION:**
 
 This project aims to predict house prices based on various features such as size, location, number of rooms, and age using machine learning algorithms like Linear Regression and Ridge Regression. The model can help real estate agents, buyers, and sellers estimate the value of a property.
 
 
-INSTALLATION:
+**INSTALLATION:**
 
-Step 1: Clone the repository:
+*Step 1:* Clone the repository:
 
 a)git clone https://github.com/your-username/house-price-prediction.git
 
 b)cd house-price-prediction
 
 
-Step 2: Create and activate a virtual environment:
+*Step 2:* Create and activate a virtual environment:
 
 a)python3 -m venv venv
 
@@ -24,76 +24,76 @@ b)source venv/bin/activate  ( On Windows, use venv\Scripts\activate)
 
 
 
-Step 3: Install the required packages:
+*Step 3:* Install the required packages:
 
 a)pip install -r requirements.txt
 
 
 
-USAGE:
+**USAGE:**
 
-Step 1: Data Preprocessing: Run the script to preprocess the data:
+*Step 1:* Data Preprocessing: Run the script to preprocess the data:
 
 a)python src/data_preprocessing.py
 
 
 
-Step 2: Model Training: Train the model using:
+*Step 2:* Model Training: Train the model using:
 
 a)python src/model_training.py
 
 
 
-Step 3: Prediction: Predict house prices by running:
+*Step 3:* Prediction: Predict house prices by running:
 
 a)python src/prediction.py --input data/new_house.csv
 
 
 
-MODEL EXPLANATION:
+**MODEL EXPLANATION:**
 
 
 The project uses two main algorithms:
 
-Linear Regression: A simple linear approach to model the relationship between features and the target (house price).
+*Linear Regression:* A simple linear approach to model the relationship between features and the target (house price).
 
-Ridge Regression: A regularized version of Linear Regression that adds a penalty to large coefficients, helping prevent overfitting.
+*Ridge Regression:* A regularized version of Linear Regression that adds a penalty to large coefficients, helping prevent overfitting.
 
 
 
-DATASET:
+**DATASET:**
 
 The dataset used for this project contains features like:
 
-Size of the house (in square feet)
+*Size of the house (in square feet)*
 
-Location
+*Location*
 
-Number of rooms
+*Number of rooms*
 
-Age of the house
+*Age of the house*
 
-Price (target variable)
+*Price (target variable)*
 
 The dataset is stored in the data/ directory.
 
 
-RESULTS:
+**RESULTS:**
 
 The model was evaluated using metrics such as Mean Squared Error (MSE) and R-squared. It showed a good performance in predicting house prices, with an MSE of X and an R-squared of Y on the test set.
 
 
-CONTRIBUTING:
+**CONTRIBUTING:**
 
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
 
-LICENSE:
+**LICENSE:**
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
-CONTACT:
+**CONTACT:**
 
 If you have any questions or feedback, feel free to reach out to:
 
